@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&family=Open+Sans&family=Raleway&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #3d484b;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #333333;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  color: #2e373f;
+  font-family: 'Catamaran', sans-serif;
+}
+
+img{
+  cursor: pointer;
+}
+
+hr{
+  border-top: 1px solid #bcb9bc;
+}
+
+.btn{
+  border-radius: 0px;
+  font-size: 1.3rem;
+}
+
+.img-thumbnail{
+  border-radius: 0px;
+}
+
+.portrait{
+  box-shadow: 0 16px 38px -12px rgba(0,0,0,.6), 0 4px 25px 0 rgba(0,0,0,.35), 0 8px 10px -5px rgba(0,0,0,.35);
+  border-radius: 50%;
+}
+
+.tech{
+  font-size: 1.1rem;
+}
+
+#welcomeText{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat' sans-serif;
+  color:rgba(255,255,255,.9)
+}
+
+.hi{
+  font-size: 1.5rem;
+}
+
+.social i{
+  margin-right: 20px;
+  color:rgba(255,255,255,.6)
+}
+
+.social i:hover{
+  color:#ffff;
+}
+
+#left{
+  background: url('../img/side.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#left::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  /* background:rgba(145,13,13,.8); */
+}
+
+.zIndex{
+  z-index: 2;
+}
+
+@media (min-width: 576px){
+  #left {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+  }
+}

@@ -36,7 +36,11 @@ hr{
 
 .portrait{
   box-shadow: 0 16px 38px -12px rgba(0,0,0,.6), 0 4px 25px 0 rgba(0,0,0,.35), 0 8px 10px -5px rgba(0,0,0,.35);
-  border-radius: 50%;
+  padding: .17rem;
+  background-color: #dfe3ec;
+  cursor: default;
+  
+
 }
 
 .tech{
@@ -49,7 +53,7 @@ hr{
   margin-top: 30px;
   font-size: 1.2rem;
   font-family: 'Montserrat' sans-serif;
-  color:rgba(255,255,255,.9)
+  color: #080808;
 }
 
 .hi{
@@ -58,7 +62,7 @@ hr{
 
 .social i{
   margin-right: 20px;
-  color:rgba(255,255,255,.6)
+  color:black;
 }
 
 .social i:hover{
@@ -76,8 +80,7 @@ hr{
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  /* background:rgba(145,13,13,.8); */
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .zIndex{

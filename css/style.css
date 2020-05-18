@@ -51,9 +51,10 @@ hr{
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'Montserrat' sans-serif;
   color: #080808;
+  font-weight: 500;
 }
 
 .hi{

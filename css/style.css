@@ -70,6 +70,10 @@ hr{
   color:#ffff;
 }
 
+#right{
+  padding-left: 35px;
+}
+
 #left{
   background: url('../img/side.jpg');
   background-size: cover;
@@ -93,5 +97,19 @@ hr{
       position: fixed;
       top: 0;
       bottom: 0;
+  }
+}
+
+@media (max-width: 576px){
+  #right{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h1{
+    font-size: 1.9rem;
   }
 }
